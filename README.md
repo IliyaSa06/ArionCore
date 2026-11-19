@@ -62,7 +62,7 @@ More cards (starting with AMD) are planned.
 
 ### Run from source
 ```bash
-git clone https://github.com/<your-username>/arioncore.git
+git clone https://github.com/IliyaSa06/ArionCore.git
 cd arioncore
 npm install
 npm start
