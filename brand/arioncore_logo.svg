@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+<defs>
+ <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#aebdce"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00c8ff"/><stop offset="1" stop-color="#075bff"/></linearGradient>
+</defs>
+<g transform="translate(10 5) scale(.58)">
+<g stroke-linejoin="round" stroke-linecap="round">
+  <path d="M105 390 L270 110 L350 110 L455 275 L385 275 L310 165 L160 390 Z"
+        fill="url(#silver)"/>
+  <path d="M235 390 L315 270 L485 270 L520 238"
+        fill="none" stroke="url(#blue)" stroke-width="34"/>
+  <circle cx="535" cy="225" r="20" fill="#07111d" stroke="#0797ff" stroke-width="18"/>
+  <path d="M315 390 L390 315 L500 315 L535 350"
+        fill="none" stroke="url(#blue)" stroke-width="30"/>
+  <circle cx="550" cy="365" r="18" fill="#07111d" stroke="#0797ff" stroke-width="16"/>
+</g>
+</g>
+<path d="M385 78 V340" stroke="#536274" stroke-width="2"/>
+<text x="455" y="218" font-family="Arial, Helvetica, sans-serif" font-size="142" font-weight="700" letter-spacing="3" fill="#e8eef5">ARION</text>
+<text x="935" y="218" font-family="Arial, Helvetica, sans-serif" font-size="142" font-weight="700" letter-spacing="3" fill="#078cff">CORE</text>
+<text x="462" y="294" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="12" fill="#9eacbd">GPU BLUEPRINT LIBRARY</text>
+</svg>

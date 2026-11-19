@@ -1,0 +1,8 @@
+@font-face{font-family:'Chakra Petch';font-weight:500;src:url(fonts/chakra-petch-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Chakra Petch';font-weight:600;src:url(fonts/chakra-petch-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-weight:400;src:url(fonts/ibm-plex-mono-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-weight:500;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Vazirmatn';font-weight:400;src:url(fonts/vazirmatn-arabic-400-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+200C-200E,U+2010-2011,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:'Vazirmatn';font-weight:500;src:url(fonts/vazirmatn-arabic-500-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+200C-200E,U+2010-2011,U+FB50-FDFF,U+FE70-FEFF}
+@font-face{font-family:'Vazirmatn';font-weight:400;src:url(fonts/vazirmatn-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:'Vazirmatn';font-weight:500;src:url(fonts/vazirmatn-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}

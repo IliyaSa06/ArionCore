@@ -1,0 +1,56 @@
+{
+  "name": "arioncore",
+  "productName": "ArionCore",
+  "version": "0.3.0",
+  "description": "Interactive blueprint atlas of graphics cards with a Claude-powered troubleshooting assistant",
+  "main": "main.js",
+  "author": "Arion",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/claude.test.js",
+    "dist:win": "electron-builder --win nsis --x64"
+  },
+  "build": {
+    "appId": "com.arion.arioncore",
+    "productName": "ArionCore",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "claude.js",
+      "renderer/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ArionCore",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "installerHeaderIcon": "build/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^45.3.3",
+    "electron-builder": "^26.18.0"
+  }
+}
